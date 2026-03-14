@@ -41,11 +41,12 @@
             this.btnEncrypt = new System.Windows.Forms.Button();
             this.btnChooseTextFile = new System.Windows.Forms.Button();
             this.lblTextFile = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnGenKey
             // 
-            this.btnGenKey.Location = new System.Drawing.Point(19, 236);
+            this.btnGenKey.Location = new System.Drawing.Point(12, 229);
             this.btnGenKey.Name = "btnGenKey";
             this.btnGenKey.Size = new System.Drawing.Size(120, 23);
             this.btnGenKey.TabIndex = 0;
@@ -169,12 +170,22 @@
             this.lblTextFile.TabIndex = 12;
             this.lblTextFile.Text = "null";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(108, 9);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(120, 13);
+            this.label3.TabIndex = 13;
+            this.label3.Text = "github.com/OmriMendel";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ClientSize = new System.Drawing.Size(405, 277);
+            this.ClientSize = new System.Drawing.Size(355, 277);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblTextFile);
             this.Controls.Add(this.btnChooseTextFile);
             this.Controls.Add(this.btnEncrypt);
@@ -213,6 +224,7 @@
         private System.Windows.Forms.Button btnEncrypt;
         private System.Windows.Forms.Button btnChooseTextFile;
         private System.Windows.Forms.Label lblTextFile;
+        private System.Windows.Forms.Label label3;
     }
 }
 
